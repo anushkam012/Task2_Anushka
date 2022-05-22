@@ -1,13 +1,13 @@
 #include<iostream>
 using namespace std;
-
+//Hello I'm adding comments
 int main() {
     int n,q;
 	cin>>n>>q; 
-    int sum=0; 
+    int sum=0; //initializing
    
-    int prod=1; 
-    for(int i=1;i<=n;i++){ 
+    int prod=1; //initializing
+    for(int i=1;i<=n;i++){ //using for loop
         if (q==1){ 
             sum = sum +i; 
         }  
