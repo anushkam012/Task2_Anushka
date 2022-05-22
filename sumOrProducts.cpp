@@ -1,13 +1,14 @@
 #include<iostream>
 using namespace std;
 //I'm commenting and editing
+//Using Loop Method
 int main() {
     int n,q;
 	cin>>n>>q; 
     int sum=0; //declaring and initializing
    
     int prod=1; //declaring and initializing
-    for(int i=1;i<=n;i++){ //using for loop
+    for(int i=1;i<=n;i++){ 
         if (q==1){   //using if else
             sum = sum +i; 
         }  
@@ -16,10 +17,10 @@ int main() {
         } 
     } 
     if (q ==1){ 
-         cout<<sum<<endl; 
+         cout<<"Sum="<<sum<<endl; 
     } 
     else if(q==2){ 
-     cout<<prod<<endl; 
+     cout<<"Product="<<prod<<endl; 
     }
     else{
         cout<<-1;
