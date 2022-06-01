@@ -3,7 +3,7 @@ using namespace std;
 //I'm commenting and editing
 //Using Loop Method
 int main() {
-    float n,q;        //This is to make a merge conflict
+    float n,q;        //This is an exapmle to make a merge conflict
 	cin>>n>>q; 
     int sum=0; //declaring and initializing
    
